@@ -7180,7 +7180,7 @@ rd_kafka_DeleteConsumerGroupOffsets_destroy_array (
         size_t del_grpoffset_cnt);
 
 /**
- * @brief Delete committed offsets for a set of partitions in a conusmer
+ * @brief Delete committed offsets for a set of partitions in a consumer
  *        group. This will succeed at the partition level only if the group
  *        is not actively subscribed to the corresponding topic.
  *
